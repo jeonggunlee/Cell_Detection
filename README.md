@@ -38,8 +38,11 @@ Image size 204 is resized to 224
 python test.py --img-size 416 --conf-thres 0.001 --batch-size 8 --data ../data.yaml --weights ./runs/exp6_yolov4-csp-results/weights/best_yolov4-csp-results.pt
 
 Scanning labels ../valid/labels.cache (353 found, 0 missing, 391 empty, 0 duplicate, for 744 images): 100%|█| 744/744 [00:00<0
+
                Class      Images     Targets           P           R      mAP@.5  mAP@.5:.95: 100%|█| 93/93 [00:05<00:00, 17.5
+               
                  all         744         437       0.795       0.995       0.977       0.651
+                 
 Speed: 3.8/1.0/4.8 ms inference/NMS/total per 416x416 image at batch-size 8
 
 
@@ -47,8 +50,11 @@ Speed: 3.8/1.0/4.8 ms inference/NMS/total per 416x416 image at batch-size 8
 python test.py --img-size 224 --conf-thres 0.001 --batch-size 8 --data ../data.yaml --weights ./runs/exp7_yolov4-csp-results/weights/best_yolov4-csp-results.pt
 
 Scanning labels ../valid/labels.cache (353 found, 0 missing, 391 empty, 0 duplicate, for 744 images): 100%|█| 744/744 [00:00<0
+
                Class      Images     Targets           P           R      mAP@.5  mAP@.5:.95: 100%|█| 93/93 [00:04<00:00, 20.4
+               
                  all         744         437       0.874       0.986       0.983       0.674
+                 
 Speed: 3.5/0.6/4.1 ms inference/NMS/total per 224x224 image at batch-size 8
 
 
