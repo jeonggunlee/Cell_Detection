@@ -1,5 +1,5 @@
 # Cell_Detection
-Cell Detection
+Cell Detection with [Scaled YOLO V4](https://github.com/WongKinYiu/ScaledYOLOv4)
 
 **Original image size:** 2448 x 1920
 
