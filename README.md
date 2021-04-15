@@ -6,13 +6,19 @@ Cell Detection
 **Partitioned image size:** 204 x 192 sized image -> 120 images
 
  1795  slice-image -d ./TEST -r 10 -c 12 10_01_23032021_172718.jpg
+ 
  1796  slice-image -d ./TEST -r 10 -c 12 10_02_23032021_172718.jpg
+ 
  ...
+ 
  1814  slice-image -d ./TEST -r 10 -c 12 10_20_23032021_172718.jpg
 
  1819  slice-image -d ./TEST -r 10 -c 12 4_01_23032021_171004.jpg
+ 
  1820  slice-image -d ./TEST -r 10 -c 12 4_02_23032021_171004.jpg
+ 
  ...
+ 
  1838  slice-image -d ./TEST -r 10 -c 12 4_20_23032021_171004.jpg
 
 
