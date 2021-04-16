@@ -58,6 +58,17 @@ Scanning labels ../valid/labels.cache (353 found, 0 missing, 391 empty, 0 duplic
 Speed: 3.5/0.6/4.1 ms inference/NMS/total per 224x224 image at batch-size 8
 
 
+python test.py --img-size 416 --conf-thres 0.001 --batch-size 8 --data ../data.yaml --weights ./runs/exp8_yolov4-csp-results/weights/best_yolov4-csp-results.pt
+
+Scanning labels ../valid/labels.cache (353 found, 0 missing, 391 empty, 0 duplicate, for 744 images): 100%|█| 744/744 [00:00<0
+
+               Class      Images     Targets           P           R      mAP@.5  mAP@.5:.95: 100%|█| 93/93 [00:04<00:00, 19.1
+               
+                 all         744         437       0.914       0.878       0.931       0.569
+                 
+Speed: 3.8/0.6/4.4 ms inference/NMS/total per 416x416 image at batch-size 8
+
+
 **Detect:**
 
 python detect.py --weights ./runs/exp6_yolov4-csp-results/weights/best_yolov4-csp-results.pt --img 2448 --conf 0.4 --source ../inf_test/ --device 2
