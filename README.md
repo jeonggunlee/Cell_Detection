@@ -1,7 +1,8 @@
 # Working Directory
 
 ```~/jglee/Medical_cellDetection/ScaledYOLOv4$ ls
-data  detect.py  inference  models  myfile.py  __pycache__  README.md  runs  test_batch0_gt.jpg  test_batch0_pred.jpg  test.py  train.py  utils
+data  detect.py  inference  models  myfile.py  __pycache__  README.md  runs  test_batch0_gt.jpg
+test_batch0_pred.jpg  test.py  train.py  utils
 eslab@Hallym-eslab:~/jglee/Medical_cellDetection/ScaledYOLOv4$
 ```
 
